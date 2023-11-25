@@ -39,3 +39,45 @@
 
 # print(greaterNum(12,12))
 
+# list and loops
+
+# def double(lst):
+#     output=[]
+#     for i in lst:
+#         output.append(i*2)
+#     print(output)
+
+# double([1,2,3,4,5])
+
+# def count_words(sentence):
+#     # count = 1
+#     # for words in sentence:
+#     #     if words==" ":
+#     #         count+=1
+#     return len(sentence.split())
+
+# print(count_words('Hi my name is Binil'))
+
+# def sum_list(numbers):
+#     sum=0
+#     for num in numbers:
+#         sum = sum+num
+#     return sum
+
+# print(sum_list([1,2,3]))
+
+#Dictionaries
+
+# def word_frequency(sentence):
+#     listOfWords = sentence.split()
+#     output={}
+#     for word in listOfWords:
+#         if word in output:
+#             output[word] = output[word] + 1
+#         else:
+#             output[word] = 1
+    
+#     return output
+
+# print(word_frequency('I love Batman because I am Batman'))
+
