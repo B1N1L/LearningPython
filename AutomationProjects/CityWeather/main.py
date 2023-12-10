@@ -14,5 +14,5 @@ def weatherData(city):
     else:
         return "ERROR"
     
-
-print("Weather: " + weatherData(input("Enter the city: ")))
+if __name__ == "__main__":
+    print("Weather: " + weatherData(input("Enter the city: ")))
